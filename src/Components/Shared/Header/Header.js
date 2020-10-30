@@ -32,7 +32,7 @@ function Header() {
             <a href="#project">Project</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
+            <a href="#blog">Blogs</a>
           </li>
           <li>
             <a href="#resume">Resume</a>
