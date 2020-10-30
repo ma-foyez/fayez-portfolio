@@ -1,0 +1,66 @@
+.skill-dark {
+    background-color: #171c28;
+    color: white;
+}
+
+.single-skill {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+}
+
+.isNotDark {
+    background-color: #171c28;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.isDark {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.single-skill:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.isDark .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+.isNotDark .service-ico {
+    margin-bottom: 1rem;
+    color: #cdcdcd;
+}
+.single-skill .ico-circle {
+    transition: all 500ms ease;
+    font-size: 4rem;
+    border-radius: 50%
+}
+
+.single-skill .skill-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+.single-skill .s-description {
+    color: #4e4e4e;
+}

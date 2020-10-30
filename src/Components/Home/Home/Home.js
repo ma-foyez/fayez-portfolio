@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import "./Home.css";
 import { StyleProvider } from "../../Shared/contexts/StyleContext";
 import Header from '../../Shared/Header/Header'
+import Top from '../../Shared/topbutton/Top'
 import Banner from "../Banner/Banner";
+import Skill from "../Skill/Skill";
+import PortfolioProject from "../PortfolioProject/PortfolioProject";
+import Blog from "../Blog/Blog";
+import Contact from "../Contact/Contact";
 
 export default class Home extends Component {
   constructor(props) {
@@ -26,8 +31,12 @@ export default class Home extends Component {
         <StyleProvider
           value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
         >
-          <Header />
           <Banner />
+          <Skill />
+          <PortfolioProject />
+          <Blog />
+          <Contact />
+          <Top />
         </StyleProvider>
       </div>
     );
