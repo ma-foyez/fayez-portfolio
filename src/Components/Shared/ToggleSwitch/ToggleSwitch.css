@@ -6,7 +6,7 @@
 }
 
 /* Fix visible slider checkbox */
-input{
+.taggle-input{
   transform: scale(0.5);
 }
 

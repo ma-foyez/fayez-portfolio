@@ -14,7 +14,7 @@ const Skill = () => {
             <div className="container pt-3">
                 <div className="skill-heading text-center">
                     <h1>Skill</h1>
-                    <div className="row pt-5">
+                    <div className="row">
                         <div className="col-md-3">
                             <div data-aos="fade-right">
                                 <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>

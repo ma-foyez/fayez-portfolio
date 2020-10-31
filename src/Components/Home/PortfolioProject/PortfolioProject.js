@@ -17,130 +17,110 @@ const PortfolioProject = () => {
     }, [])
 
     return (
-        <section classNameName={isDark ? "project-dark" : "bg-white text-dark"} id="skill" id="project">
-            <div classNameName="container">
+        <section className={isDark ? "project-dark" : "bg-white text-dark"} id="skill" id="project">
+            <div className="container">
                 <h1 className="text-center">
                     Recent Work
                 </h1>
-                <div className="row text-center p-5">
-
-
+                <div className="row p-3">
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-right" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={project1} alt="project-img" className="img-fluid" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={project1} alt="project-img" className="card-img-top" />
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">Creative Agency</h4>
+                                <p class="card-text">A Dynamic Web Application <br /> <strong>October,2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">Creative Agency</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">Dynamic Web Application</p>  <p className="w-date text-bold">October. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://creatives-agency.web.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/creative-agency" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://creatives-agency.web.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/creative-agency" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-right" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={volunteer} alt="project-img" className="img-fluid" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={volunteer} alt="project-img" className="card-img-top" />
+
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">Volunteer Network</h4>
+                                <p class="card-text">A Dynamic Web Application <br /> <strong>October,2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">Volunteer Network</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">Dynamic Web Application</p>  <p className="w-date text-bold">October. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://volunteer-network-2.web.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/volunteer-network-client" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://volunteer-network-2.web.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/volunteer-network-client" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-right" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={travel} alt="project-img" className="img-fluid w-75" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={travel} alt="project-img" className="card-img-top" />
+
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">Travel Guru</h4>
+                                <p class="card-text">A Dynamic Web Application <br /> <strong>October,2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">Travel Guru</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">Dynamic Web Application</p>  <p className="w-date text-bold">September. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://travel-guru1-c76b7.web.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/travel-guru" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://travel-guru1-c76b7.web.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/travel-guru" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-left" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={eSchool} alt="project-img" className="img-fluid w-75" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={eSchool} alt="project-img" className="card-img-top" />
+
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">E-School</h4>
+                                <p class="card-text">Bootstrap Responsive Website <br /> <strong>August, 2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">E-School</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">Bootstrap Responsive Website</p>  <p className="w-date text-bold">August. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://mafayez-e-school.netlify.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/E-School" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://mafayez-e-school.netlify.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/E-School" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-left" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={pinMatcher} alt="project-img" className="img-fluid w-75" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={pinMatcher} alt="project-img" className="card-img-top" />
+
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">Pin Matcher </h4>
+                                <p class="card-text">Vanila JavaScript <br /> <strong>October,2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">Pin Matcher Generator</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">Vanila JavaScript</p>  <p className="w-date text-bold">July. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://mafayez-pin-matcher.netlify.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/pin-matcher" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://mafayez-pin-matcher.netlify.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/pin-matcher" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-md-4 text-center">
-                        <div data-aos="fade-left" className={isDark ? "work-box text-dark shadow p-3 mb-5 bg-white rounded" : "shadow p-3 mb-5 bg-white rounded work-box work-light"}>
-                            <div className="work-img">
-                                <img src={hipCamp} alt="project-img" className="img-fluid w-75" />
+                        <div data-aos="fade-left" className={isDark ? "card portfolio text-dark shadow p-3 mb-5 bg-white rounded" : " card shadow p-3 mb-5 bg-white rounded portfolio"}>
+                            <img src={hipCamp} alt="project-img" className="card-img-top" />
+
+                            <div class="card-body mt-3">
+                                <h4 class="card-title">Camping Application</h4>
+                                <p class="card-text">Vanila JavaScript <br /> <strong>October,2020</strong> </p>
                             </div>
-                            <div className="work-content pt-3">
-                                <h2 className="w-title">Hip Camp</h2>
-                                <div className="w-more">
-                                    <p className="w-ctegory mt-3">A Camping Web Application</p>  <p className="w-date text-bold">July. 2020</p>
-                                </div>
-                                <div className="row Details justify-content-between m-3">
-                                    <a href="https://mafayez-hipcamp.netlify.app/" target="_blank" className="btn btn-danger">View Demo</a>
-                                    <a href="https://github.com/ma-foyez/HipCamp" target="_blank" className="btn btn-secondary">Source Code</a>
-                                    <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn">See More</button></Link>
-                                </div>
+                            <div class="text-center">
+                                <a href="https://mafayez-hipcamp.netlify.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                <a href="https://github.com/ma-foyez/HipCamp" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link>
                             </div>
                         </div>
                     </div>
 
 
-                    {/*end row*/}
+
+                    {/*row close */}
                 </div>
             </div>
         </section >

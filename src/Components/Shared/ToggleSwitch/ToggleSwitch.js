@@ -8,6 +8,7 @@ const ToggleSwitch = () => {
   return (
     <label className="switch">
       <input
+        className="taggle-input"
         type="checkbox"
         checked={isChecked}
         onChange={() => {

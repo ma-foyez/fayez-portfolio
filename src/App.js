@@ -10,23 +10,30 @@ import {
   Link
 } from "react-router-dom";
 import NotFound from "./Components/NotFound/NotFound";
+import Resume from "./Components/Resume/Resume";
+import Top from "./Components/Shared/topbutton/Top";
 
 function App() {
   return (
     <div>
-       <Router>
-         <Switch>
-           <Route exact path="/">
-             <Home/>
-           </Route>
-           <Route path="/home">
-             <Home/>
-           </Route>
-           <Route path="*">
-             <NotFound></NotFound>
-           </Route>
-         </Switch>
-       </Router>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/resume">
+            <Resume></Resume>
+          </Route>
+
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
+        </Switch>
+      </Router>
+      <Top/>
     </div>
   );
 }

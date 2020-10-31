@@ -5,15 +5,14 @@ import "./Top.css";
 export default function Top() {
     function TopEvent() {
         document.body.scrollTop = 0; 
-        document.documentElement.scrollTop = 0;
+        document.documentElement.scrollTop = 0; 
     }
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            if (document.getElementById("topButton").style.visibility !== null) {
-                document.getElementById("topButton").style.visibility = "visible";
-            }
-           
-        } 
+            document.getElementById("topButton").style.visibility = "visible";
+        } else {
+            document.getElementById("topButton").style.visibility = "hidden";
+        }
     }
     window.onscroll = function() {scrollFunction();};
     window.onload = function() {scrollFunction();}; 

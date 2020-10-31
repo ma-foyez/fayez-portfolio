@@ -38,9 +38,6 @@ function Header() {
             <a href="#resume">Resume</a>
           </li>
           <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
             <a href="#contact">Contact Me</a>
           </li>
           <li>

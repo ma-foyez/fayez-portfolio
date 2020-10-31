@@ -8,6 +8,8 @@ import Skill from "../Skill/Skill";
 import PortfolioProject from "../PortfolioProject/PortfolioProject";
 import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
+import Resume from "../../Resume/Resume";
+import Footer from "../../Shared/Footer/Footer";
 
 export default class Home extends Component {
   constructor(props) {
@@ -36,6 +38,8 @@ export default class Home extends Component {
           <PortfolioProject />
           <Blog />
           <Contact />
+          <Resume />
+          <Footer />
           <Top />
         </StyleProvider>
       </div>

@@ -6,7 +6,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #55198b;
+  background-color: #06a0bb;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -15,6 +15,6 @@
 }
 
 #topButton:hover {
-  background-color: #000;
+  background-color: rgb(10, 96, 99);
   transition: all ease-in-out 0.2s;
 }

@@ -1,24 +1,13 @@
 import React, { useContext } from "react";
 import "./Footer.css";
-import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
-import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../contexts/StyleContext";
 
 export default function Footer() {
   const { isDark } = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="5px">
-      <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Saad Pasta")}
-        </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>
-        </p>
-      </div>
-    </Fade>
+    <footer className="text-center pb-2 mt-3">
+       <p><strong>Made By M.A Foyez with ❤️ Heart </strong></p>
+       <p>Copyright <i class="far fa-copyright"></i> {(new Date()).getFullYear()}-{(new Date()).getFullYear()+1} M.A Foyez</p>
+    </footer>
   );
 }

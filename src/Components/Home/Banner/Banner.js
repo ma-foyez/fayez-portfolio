@@ -2,12 +2,11 @@ import React, { useContext } from 'react';
 import Particles from 'react-particles-js';
 import StyleContext from '../../Shared/contexts/StyleContext';
 import './Banner.css'
-import profile from '../../../assets/images/DSC_1155 - Copy (2).png'
 import fayez from '../../../assets/images/image 14.png'
 import Header from '../../Shared/Header/Header'
-
 import Typical from 'react-typical'
 import Social from '../../Shared/Social/Social';
+import resume from '../../../assets/resume/Resume_of_Muhammad_Abul_Foyez.pdf'
 
 const Banner = () => {
     const { isDark } = useContext(StyleContext);
@@ -30,7 +29,7 @@ const Banner = () => {
                             <Typical
                                 loop={Infinity}
                                 wrapper="h3"
-                                steps={["I AM A FRONT END DEVELOPER", 1000, "I AM A PROGRAMMER!", 500]}
+                                steps={["Frontend Developer", 2500, "PROGRAMMER!", 2500]}
                             />
                             <p className="text-justify text-capitalize">A passionate Frontend Developer 🚀 having an experience of building dynamic Web applications with JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks.</p>
 
@@ -38,7 +37,8 @@ const Banner = () => {
 
                             <div className="brand-btn">
                                 <button className="btn hire-me m-2">Contact Me</button>
-                                <button className="btn resume-btn">Download Resume</button>
+                                <a className="text-decoration-none" href={resume} download> <button className="btn resume-btn">Download Resume </button></a>
+
                             </div>
                         </div>
 
