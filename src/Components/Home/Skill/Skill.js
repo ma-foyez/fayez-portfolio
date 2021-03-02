@@ -10,14 +10,14 @@ const Skill = () => {
     }, [])
 
     return (
-        <section className={isDark ? "skill-dark" : "bg-white text-dark"} id="skill">
+        <section className={!isDark ? "skill-dark" : "bg-white text-dark"} id="skill">
             <div className="container pt-3">
                 <div className="skill-heading text-center">
                     <h1>Skill</h1>
                     <div className="row">
                         <div className="col-md-3">
                             <div data-aos="fade-right">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fab fa-react"></i></span>
                                     </div>
@@ -30,7 +30,7 @@ const Skill = () => {
 
                         <div className="col-md-3">
                             <div data-aos="fade-right">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fas fa-database"></i></span>
                                     </div>
@@ -43,7 +43,7 @@ const Skill = () => {
 
                         <div className="col-md-3">
                             <div data-aos="fade-up-right">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fab fa-node"></i></span>
                                     </div>
@@ -56,7 +56,7 @@ const Skill = () => {
 
                         <div className="col-md-3">
                             <div data-aos="fade-right">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fas fa-laptop-code"></i></span>
                                     </div>
@@ -69,7 +69,7 @@ const Skill = () => {
 
                         <div className="col-md-3">
                             <div data-aos="fade-down">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fas fa-code-branch"></i></span>
                                     </div>
@@ -82,7 +82,7 @@ const Skill = () => {
 
                         <div className="col-md-3">
                             <div data-aos="fade-up">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fab fa-bootstrap"></i></span>
                                     </div>
@@ -94,7 +94,7 @@ const Skill = () => {
                         </div>
                         <div className="col-md-3">
                             <div data-aos="fade-left">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fab fa-codepen"></i></span>
                                     </div>
@@ -106,7 +106,7 @@ const Skill = () => {
                         </div>
                         <div className="col-md-3">
                             <div data-aos="slide-right">
-                                <div className={isDark ? "single-skill isDark text-dark" : "single-skill isNotDark text-light"}>
+                                <div className={!isDark ? "single-skill !isDark text-dark" : "single-skill isNotDark text-light"}>
                                     <div class="service-ico">
                                         <span class="ico-circle"><i class="fab fa-css3-alt"></i></span>
                                     </div>

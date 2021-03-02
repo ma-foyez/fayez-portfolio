@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resume.css'
 import downloadIcon from '../../assets/images/icon/down.png'
-import resume from '../../assets/resume/Resume_of_Muhammad_Abul_Foyez.pdf'
+import resume from '../../assets/resume/MUHAMMAD_ABUL_FOYEZ.pdf'
 const Resume = () => {
     return (
         <section id="resume">

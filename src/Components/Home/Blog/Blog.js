@@ -15,7 +15,7 @@ const Blog = () => {
     }, [])
     return (
 
-        <div className={isDark ? "blog-dark text-light" : "bg-white text-dark"} id="blog">
+        <div className={!isDark ? "blog-dark text-light" : "bg-white text-dark"} id="blog">
             <div className="container">
                 <div className="blog-info text-center">
                     <h3>BLOG</h3>

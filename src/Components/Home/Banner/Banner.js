@@ -12,7 +12,7 @@ const Banner = () => {
     const { isDark } = useContext(StyleContext);
 
     return (
-        <div className={isDark ? "banner-dark" : "banner-white"}>
+        <div className={!isDark ? "banner-dark" : "banner-white"}>
             <div className="menu">
                 <Header />
             </div>

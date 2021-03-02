@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
         <>
-            <section className={isDark ? "contact-dark contact" : "text-dark contact-light"} id="contact">
+            <section className={!isDark ? "contact-dark contact" : "text-dark contact-light"} id="contact">
                 <div className="contact">
                     <div className="container pt-5">
                         <div className="contact-heading text-center">

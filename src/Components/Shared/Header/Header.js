@@ -9,7 +9,7 @@ function Header() {
   const { isDark } = useContext(StyleContext);
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
+      <header className={!isDark ? "dark-menu header" : "header"}>
         <a href="#home" className="logo ml-3">
           <Link to="/home"><img src={logo} alt="logo" /></Link>
         </a>
@@ -19,9 +19,9 @@ function Header() {
           htmlFor="menu-btn"
           style={{ color: "white" }}
         >
-          <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
+          <span className={!isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className={!isDark ? "dark-menu menu" : "menu"}>
           <li>
             <Link to="/home">Home</Link>
           </li>
