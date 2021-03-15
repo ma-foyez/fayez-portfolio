@@ -12,7 +12,9 @@ var PortfolioData = [
             { img: "https://i.ibb.co/CzLDP8N/05.png" },
             { img: "https://i.ibb.co/6g479YT/07.png" },
             { img: "https://i.ibb.co/30KQQ3Z/06.png" },
-        ]
+        ],
+        liveURL: 'https://imarine.akijshipping.com/',
+        github: null
     },
     {
         id: 2,
@@ -26,7 +28,7 @@ var PortfolioData = [
     {
         id: 3,
         title: "Volunteer Network",
-        subTitle: "Crew Management System",
+        subTitle: "Social Workers Management",
         image: 'https://i.ibb.co/CVF885s/01.png',
         gallery: [
             { img: "https://i.ibb.co/CVF885s/01.png" },
@@ -36,28 +38,34 @@ var PortfolioData = [
             { img: "https://i.ibb.co/yh0r7Vb/05.png" },
             { img: "https://i.ibb.co/q9Cn0wD/06.png" },
             { img: "https://ibb.co/zbqMgnM" },
-        ]
+        ],
+        liveURL: 'https://volunteer-network-2.web.app/',
+        github: 'https://github.com/ma-foyez/volunteer-network-client'
     },
     {
         id: 4,
         title: "Travel Guru",
-        subTitle: "Crew Management System",
+        subTitle: "Hotel Booking Management",
         image: 'https://i.ibb.co/fqS3XZj/01.png',
         gallery: [
             { img: "https://i.ibb.co/fqS3XZj/01.png" },
             { img: "https://i.ibb.co/nRwk6yg/02.png" },
             { img: "https://i.ibb.co/xj57q4X/03.png" },
             { img: "https://i.ibb.co/2ht0PmS/04.png" },
-        ]
+        ],
+        liveURL: 'https://travel-guru1-c76b7.web.app/',
+        github: 'https://github.com/ma-foyez/travel-guru'
     },
     {
         id: 5,
         title: "Creative Agency",
-        subTitle: "Crew Management System",
+        subTitle: "Online Hotel Booking System",
         image: 'https://i.ibb.co/QY636Rr/creative.png',
         gallery: [
             { img: "https://i.ibb.co/QY636Rr/creative.png" },
-        ]
+        ],
+        liveURL: 'https://creatives-agency.web.app/',
+        github: 'https://github.com/ma-foyez/creative-agency'
     },
     {
         id: 6,
@@ -68,7 +76,20 @@ var PortfolioData = [
             { img: "https://i.ibb.co/V2dCndb/01.png" },
             { img: "https://i.ibb.co/1R5RmJs/02.png" },
             { img: "https://i.ibb.co/rvB90Zp/03.png" },
-        ]
+        ],
+        liveURL: 'https://mafayez-pin-matcher.netlify.app/',
+        github: 'https://github.com/ma-foyez/pin-matcher'
+    },
+    {
+        id: 7,
+        title: "eSchool",
+        subTitle: "eSchool SPA",
+        image: 'https://i.ibb.co/qnWD3z1/Screenshot-43.png',
+        gallery: [
+            { img: "https://i.ibb.co/CPB1rnT/ESchool.png" },
+        ],
+        liveURL: 'https://mafayez-e-school.netlify.app/',
+        github: 'https://github.com/ma-foyez/E-School'
     },
 ]
 

@@ -32,20 +32,20 @@ const PortfolioProject = () => {
                                         <div className="work-img">
                                             <img src={item.image} alt="" className="img-fluid" />
                                         </div>
-                                        <div className="work-content">
-                                            <h2 className="w-title">{item.title}</h2>
-                                            <div className="w-more">
-                                                <span className="w-ctegory">
-                                                    HTML5 CSS3 Bootstrap ReactJS
-                                        </span>
-                                            </div>
-                                            <div class="text-center">
-                                                <a href="https://volunteer-network-2.web.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
-                                                <a href="https://github.com/ma-foyez/volunteer-network-client" target="_blank" className="btn btn-secondary m-2">Source Code</a>
-                                                {/* <Link to="/notFound"><button href="#" target="_blank" className="btn resume-btn m-2">See More</button></Link> */}
-                                            </div>
-                                        </div>
                                     </a>
+                                    <div className="work-content">
+                                        <h2 className="w-title">{item.title}</h2>
+                                        <div className="w-more">
+                                            <span className="w-ctegory">
+                                                HTML5 CSS3 Bootstrap ReactJS
+                                        </span>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="https://volunteer-network-2.web.app/" target="_blank" className="btn btn-danger m-2">View Demo</a>
+                                            <a href="https://github.com/ma-foyez/volunteer-network-client" target="_blank" className="btn btn-secondary m-2">Source Code</a>
+                                        </div>
+                                    </div>
+
                                     {
                                         item.gallery.length > 0 && item.gallery.map((sliderImage, index) => (
                                             <a href={sliderImage.img} data-lightbox="gallery-vmarine" style={{ display: "none" }}>
@@ -53,7 +53,7 @@ const PortfolioProject = () => {
                                             </a>
                                         ))
                                     }
-                                 
+
                                 </div>
                             </div>
                         ))
